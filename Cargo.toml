@@ -1,0 +1,16 @@
+[package]
+name = "lol-governor-contract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ink = "4.0.0-rc.1"
+
+[lib]
+name = "lol_governor_contract"
+path = "src/main.rs"
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = ["std"]
+std = ["ink/std"]

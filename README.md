@@ -1,6 +1,6 @@
-# 🧾 lol-governor-contract
+# 🧾 governor-contract
 
-A smart contract for on-chain governance integrated with the Living On Logic protocol.  
+A smart contract for on-chain governance. 
 Written in Rust using [ink!](https://use.ink/) for Substrate-based blockchains.
 
 ---
